@@ -1,31 +1,34 @@
-* {box-sizing: border-box;
+
+* {background-color: #e6f3ff;}
+body
+{box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	background-color: #ffffb3;}
-body {font-size: 100%;
+ 	font-size: 100%;
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-	margin-left: 15px;} 
+
+} 
 h1 {margin-bottom: 20px;
 	font-size: 1.75em;
 	margin-left: 20px;
 	margin-top:20px;
 	text-align: center;} 
-#oki {background-color: #f5deb3;
-	position: top-right; 
-	font-style: italic;
-	font-size: 1.25em; 
-	text-align: right;
-	position: right;}
-section #container-fluid {padding: 5px; width:100%;} 
 
-.row  {column-width: 100%;}
+section {background-color: #ffffb3;
+		position: relative;}
+div {box-sizing: border-box;
+	margin-right: 20px;}
+ 
+ .yes {background-color: #e7bda2;
+ 	text-align: right;
+ 	float:right;} 
 
 @media (min-width: 992px) {.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, 
 		.col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
 			float: left;
 			border: 1px black;
-			padding: 10px;
-			}
+			padding: 5px;
+						}
 			.col-lg-1 {width: 8.33%}
 			.col-lg-2 {width: 16.66%}
 			.col-lg-3 {width: 25%}
@@ -43,7 +46,7 @@ section #container-fluid {padding: 5px; width:100%;}
 			.col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
 				float: left;
 				border: 1px black
-				padding 10px;
+				padding 5px;
 			}
 			.col-md-1 {width: 8.33%}
 			.col-md-2 {width: 16.66%}
@@ -63,7 +66,7 @@ section #container-fluid {padding: 5px; width:100%;}
 			.col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
 				float: left;
 				border: 1px black;
-				padding: 10px; 
+				padding: 5px; 
 			}
 			.col-md-1 {width: 8.33%}
 			.col-md-2 {width: 16.66%}
