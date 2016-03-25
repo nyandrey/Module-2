@@ -1,12 +1,12 @@
 
-* {background-color: #e6f3ff;}
+
 body
 {box-sizing: border-box;
 	margin: 0;
 	padding: 0;
  	font-size: 100%;
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-
+	background-color: #e6f3ff;
 } 
 h1 {margin-bottom: 20px;
 	font-size: 1.75em;
@@ -14,14 +14,17 @@ h1 {margin-bottom: 20px;
 	margin-top:20px;
 	text-align: center;} 
 
-section {background-color: #ffffb3;
+section  {background-color: #ffffb3;
 		position: relative;}
+
+p {overflow: auto;}
+
 div {box-sizing: border-box;
 	margin-right: 20px;}
- 
+
  .yes {background-color: #e7bda2;
- 	text-align: right;
- 	float:right;} 
+ 		text-align: right;
+ 		float:right;} 
 
 @media (min-width: 992px) {.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, 
 		.col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
